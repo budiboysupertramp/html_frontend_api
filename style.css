@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: none;
+    background-color: antiquewhite;
+
+}
+
+#root {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 40px;
+    /* box-shadow: 4px 5px 8px rgba(0, 0, 0.6); */
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 4px 5px 8px rgba(0, 0, 0.6);
+    transition-duration: 0.4s;
+    
+}
+
+.card:hover{
+    box-shadow: 5px 6px 8px rgba(0, 0, 0.6);
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+   
+}
